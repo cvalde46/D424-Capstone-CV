@@ -1,4 +1,4 @@
-package com.example.vacationapp;
+package com.example.vacationapp.data.alerts;
 
 import android.Manifest;
 import android.app.NotificationChannel;

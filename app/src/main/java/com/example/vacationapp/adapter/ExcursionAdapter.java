@@ -1,4 +1,4 @@
-package com.example.vacationapp;
+package com.example.vacationapp.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.vacationapp.R;
 import com.example.vacationapp.data.entity.ExcursionEntity;
 
 import java.util.ArrayList;

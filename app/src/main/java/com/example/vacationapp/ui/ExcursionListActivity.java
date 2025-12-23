@@ -1,4 +1,4 @@
-package com.example.vacationapp;
+package com.example.vacationapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.vacationapp.adapter.ExcursionAdapter;
+import com.example.vacationapp.R;
 import com.example.vacationapp.data.database.AppDatabase;
 import com.example.vacationapp.data.entity.ExcursionEntity;
 import com.example.vacationapp.data.entity.VacationEntity;

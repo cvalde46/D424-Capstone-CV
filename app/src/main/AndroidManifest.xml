@@ -14,7 +14,7 @@
         android:theme="@style/Theme.VacationApp">
 
         <activity
-            android:name=".VacationListActivity"
+            android:name=".ui.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,21 +23,22 @@
         </activity>
 
         <activity
-            android:name=".VacationDetailActivity"
+            android:name=".ui.VacationListActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".ui.VacationDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".ExcursionDetailActivity"
+            android:name=".ui.ExcursionDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".ExcursionListActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".ui.ExcursionListActivity"
             android:exported="false" />
         <receiver
-            android:name=".AlertReceiver"
+            android:name=".data.alerts.AlertReceiver"
             android:exported="false" />
-
     </application>
 
 </manifest>

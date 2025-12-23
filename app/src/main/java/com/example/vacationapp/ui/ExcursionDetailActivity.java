@@ -1,4 +1,4 @@
-package com.example.vacationapp;
+package com.example.vacationapp.ui;
 
 import android.Manifest;
 import android.app.AlarmManager;
@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.example.vacationapp.data.alerts.AlertReceiver;
+import com.example.vacationapp.R;
 import com.example.vacationapp.data.database.AppDatabase;
 import com.example.vacationapp.data.entity.ExcursionEntity;
 import com.example.vacationapp.data.entity.VacationEntity;

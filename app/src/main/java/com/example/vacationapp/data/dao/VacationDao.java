@@ -28,5 +28,7 @@ public interface VacationDao {
     @Delete
     int delete(VacationEntity vacation);
 
+    @Query("SELECT * FROM vacations WHERE title LIKE :query OR hotel LIKE :query ORDER BY startDate ASC")
+    List<VacationEntity> searchVacations(String query);
 
 }
