@@ -1,29 +1,64 @@
-<strong>**DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. **</strong>
+# Vacation Scheduler Mobile Application
 
-# WESTERN GOVERNORS UNIVERSITY 
-## D424 – SOFTWARE ENGINEERING CAPSTONE
-Welcome to Software Engineering Capstone! This is an opportunity for students to develop full stack software engineering documentation and applications. They will execute documentation, unit testing, revision of software applications, and deploy software applications with scripts and containers on a cloud platform.
+## Purpose
+The Vacation Scheduler mobile application allows travelers to organize vacations and excursions in one place. Users can create, edit, and delete vacations, associate excursions with each vacation, and receive alerts for important dates. The application is designed to help users track travel plans and activities efficiently using a local database.
 
-FOR SPECIFIC TASK INSTRUCTIONS AND REQUIREMENTS FOR THIS ASSESSMENT, PLEASE REFER TO THE COURSE PAGE.
-BASIC INSTRUCTIONS
-For this assessment, you will deploy your developed full stack software product to a web service of your choice.
+---
 
+## Application Features
+- Create, edit, and delete vacations
+- Store vacation details including title, hotel, start date, and end date
+- Create, edit, and delete excursions associated with a vacation
+- Validate dates to ensure excursions occur during the vacation period
+- Display vacation and excursion lists using RecyclerViews
+- Set alerts for vacation start and end dates
+- Set alerts for excursion dates
+- Share vacation details using Android’s share functionality
+- Prevent deletion of vacations that have associated excursions
 
-## SUPPLEMENTAL RESOURCES  
-1.	How to clone a project to IntelliJ using Git?
+---
 
-> Ensure that you have Git installed on your system and that IntelliJ is installed using [Toolbox](https://www.jetbrains.com/toolbox-app/). Make sure that you are using version 2022.3.2. Once this has been confirmed, click the clone button and use the 'IntelliJ IDEA (HTTPS)' button. This will open IntelliJ with a prompt to clone the proejct. Save it in a safe location for the directory and press clone. IntelliJ will prompt you for your credentials. Enter in your WGU Credentials and the project will be cloned onto your local machine.  
+## How to Use the Application
 
-2. How to create a branch and start Development?
+### Home Screen
+- Launches the application and navigates to the vacation list.
 
-- GitLab method
-> Press the '+' button located near your branch name. In the dropdown list, press the 'New branch' button. This will allow you to create a name for your branch. Once the branch has been named, you can select 'Create Branch' to push the branch to your repository.
+### Vacation List Screen
+- Displays a list of all saved vacations.
+- Select a vacation to edit its details.
+- Use the **Add Vacation** button to create a new vacation.
+- Use the **Excursions** button to view excursions associated with a vacation.
+- Use the **Share** button to share vacation details.
 
-- IntelliJ method
-> In IntelliJ, Go to the 'Git' button on the top toolbar. Select the new branch option and create a name for the branch. Make sure checkout branch is selected and press create. You can now add a commit message and push the new branch to the local repo.
+### Vacation Detail Screen
+- Enter or update vacation title, hotel, start date, and end date.
+- Enable alerts for vacation start and end dates.
+- Save or delete vacation information.
+- Navigate to the excursion list for the selected vacation.
 
-## SUPPORT
-If you need additional support, please navigate to the course page and reach out to your course instructor.
+### Excursion List Screen
+- Displays excursions associated with a selected vacation.
+- Use the **Add Excursion** button to create a new excursion.
+- Select an excursion to edit or delete it.
 
-## FUTURE USE
-Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
+### Excursion Detail Screen
+- Enter or update excursion title and date.
+- Set an alert for the excursion date.
+- Save or delete excursion information.
+
+---
+
+## Alerts
+- Vacation alerts trigger on the vacation start and end dates.
+- Excursion alerts trigger on the excursion date.
+- Alerts are delivered using Android notifications.
+
+---
+
+## Android Version
+- The application is compatible with **Android 8.0 (API level 26)** and higher.
+- The signed APK was built using a **release configuration**.
+
+---
+
+## Repository Link
